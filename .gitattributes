@@ -1,0 +1,13 @@
+# This file is used to ensure consistent line endings and language detection across different platforms and tools.
+# * text=auto eol=lf makes sure that text files have LF line endings, which is the standard for Unix-based systems.
+* text=auto eol=lf 
+# *.sh text eol=lf ensures that shell scripts have LF line endings, which is important for compatibility with Unix-based systems.
+*.sh text eol=lf
+# *.png binary means that PNG image files are treated as binary files, preventing Git from attempting to modify their line endings.
+*.png binary
+# docs/** linguist-documentation means that files in the docs directory are treated as documentation files by GitHub's Linguist tool, which do not affect the language statistics of the repository.
+docs/** linguist-documentation
+# k8s/** linguist-language=YAML means that files in the k8s directory are treated as YAML files by GitHub's Linguist tool, which helps with syntax highlighting and language statistics.
+k8s/** linguist-language=YAML
+# vendor/** linguist-vendored means that files in the vendor directory are treated as vendored code by GitHub's Linguist tool, which excludes them from language statistics and syntax highlighting, as they are typically third-party dependencies.
+vendor/** linguist-vendored
