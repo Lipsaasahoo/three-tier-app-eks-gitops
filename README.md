@@ -2,7 +2,7 @@
 # Three-Tier App on EKS with a DevSecOps Pipeline
 <!-- Bellow are the badges -->
 
-[![CI](https://github.com/jaiswaladi246/three-tier-app-eks-gitops/actions/workflows/ci.yml/badge.svg)](https://github.com/jaiswaladi246/three-tier-app-eks-gitops/actions/workflows/ci.yml)
+[![CI](https://github.com/jaiswaladi246/three-tier-app-eks-gitops/actions/workflows/ci.yml/badge.svg)](https://github.com/Lipsaasahoo/three-tier-app-eks-gitops/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Node](https://img.shields.io/badge/node-20-green)
 
